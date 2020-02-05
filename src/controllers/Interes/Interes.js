@@ -35,4 +35,7 @@ module.exports = {
       res.status(400).json("Faltan datos importantes");
     }
   },
+  getHome: async (req,res)=>{
+  res.send("HOME")
+  }
 };
